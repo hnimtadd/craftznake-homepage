@@ -14,7 +14,7 @@ import {
 import Paragraph from '@/components/paragraph'
 import Image from 'next/image'
 import { ChevronRightIcon } from '@chakra-ui/icons'
-import BioSection, { BioYear } from '@/components/bio'
+import { BioSection, BioYear } from '@/components/bio'
 import Layout from '@/components/layouts/article'
 import { IoLogoGithub, IoLogoFacebook, IoLogoInstagram } from 'react-icons/io5'
 
