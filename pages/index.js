@@ -58,7 +58,7 @@ const Index = () => {
               overflow="hidden"
             >
               <ProfileImage
-                src="/images/hnimtadd.jpg"
+                src="/images/hnimtadd.jpeg"
                 alt="Profile image"
                 borderRadius="full"
                 width="100"
