@@ -32,6 +32,31 @@ const Works = () => {
             </WorkGridItem>
           </Section>
         </SimpleGrid>
+
+        <Section delay={0.2}>
+          <Divider my={6} />
+
+          <Heading as="h3" fontSize={20} mb={4}>
+            Collaborations
+          </Heading>
+        </Section>
+        <SimpleGrid columns={[1, 1, 2]} gap={6}>
+          <Section>
+            <WorkGridItem id="uwc" title="UWC-Web" thumbnail={thumbSendit}>
+              Urban garbage collect management application on web platform.
+            </WorkGridItem>
+          </Section>
+          <Section>
+            <WorkGridItem
+              id="smarthome"
+              title="IOT Smarthome"
+              thumbnail={thumbSendit}
+            >
+              The mobile application that enable user to manage iot device in
+              their house.
+            </WorkGridItem>
+          </Section>
+        </SimpleGrid>
       </Container>
     </Layout>
   )

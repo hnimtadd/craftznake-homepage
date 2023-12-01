@@ -13,8 +13,7 @@ import {
   MenuList,
   MenuButton,
   IconButton,
-  useColorModeValue,
-  Button
+  useColorModeValue
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeTogleButton from './theme-toggle-button'
