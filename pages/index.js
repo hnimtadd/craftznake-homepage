@@ -34,7 +34,7 @@ const Index = () => {
           bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
           css={{ backdropFilter: 'blur(10px)' }}
         >
-          Hello, I&apos;m a full-stack developer based in Vietnam!
+          Hello, I&apos;m a developer based in Vietnam!
         </Box>
         <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
