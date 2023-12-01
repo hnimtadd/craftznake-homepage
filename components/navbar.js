@@ -77,7 +77,7 @@ const Navbar = ({ path, ...props }) => {
             Uses
           </LinkItem>
           <LinkItem
-            href="https://github.com/hnimtadd"
+            href="https://github.com/hnimtadd/craftznake-homepage"
             paht={path}
             display="inline-flex"
             style={{ gap: 4 }}
