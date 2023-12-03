@@ -73,9 +73,7 @@ const Index = () => {
           </Heading>
           <Paragraph>
             Hnimtadd is a developer based in Vietname with a passion for
-            building digital services/stuff he wants. He has a knack for all
-            things lauching products, from planning and designing all the way to
-            solving real-life problems with code.
+            building digital services/stuff he wants.
           </Paragraph>
           <Box align="center" my={4}>
             <Button
