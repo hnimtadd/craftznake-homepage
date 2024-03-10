@@ -52,8 +52,8 @@ const Navbar = ({ path, ...props }) => {
         display="flex"
         flexDir="row"
         p={2}
-        maxW="container.md"
         wrap="wrap"
+        maxW="container.md"
         align="center"
         justify="space-between"
       >

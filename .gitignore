@@ -13,3 +13,5 @@ node_modules/
 .next/*
 #.pnp.*
 **/.DS_Store**
+.DS_Store
+**/*.zip

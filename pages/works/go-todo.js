@@ -12,8 +12,7 @@ const Work = () => {
           Go Todo <Badge>9/2023</Badge>
         </Title>
         <Paragraph>
-          Manage your todo with a account then access any where with your
-          account.
+          Manage your todo then access any where with your account.
         </Paragraph>
         <List ml={4} mb={4}>
           <ListItem>
