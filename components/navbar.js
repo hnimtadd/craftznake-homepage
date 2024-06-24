@@ -13,11 +13,13 @@ import {
   MenuList,
   MenuButton,
   IconButton,
+  Icon,
   useColorModeValue
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
+import { IoLogoGithub} from 'react-icons/io5'
 import ThemeTogleButton from './theme-toggle-button'
-import { IoLogoGithub } from 'react-icons/io5'
+
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
   const active = path === href
@@ -77,6 +79,16 @@ const Navbar = ({ path, ...props }) => {
             Uses
           </LinkItem>
           <LinkItem
+            href="mailto:dev.craftznake@gmail.com"
+            paht={path}
+            display="inline-flex"
+            style={{ gap: 4 }}
+            alignItems="center"
+            pl={2}
+          >
+            Contact
+          </LinkItem>
+          <LinkItem
             href="https://github.com/hnimtadd/craftznake-homepage"
             paht={path}
             display="inline-flex"
@@ -84,7 +96,7 @@ const Navbar = ({ path, ...props }) => {
             alignItems="center"
             pl={2}
           >
-            <IoLogoGithub />
+            <Icon as={ IoLogoGithub }/>
             View Source
           </LinkItem>
         </Stack>
