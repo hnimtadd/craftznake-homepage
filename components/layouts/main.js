@@ -1,7 +1,7 @@
 import { Box, Container } from '@chakra-ui/react'
 import Navbar from '@/components/navbar'
 import Head from 'next/head'
-import BitcoinFactory from '@/components/bitcoin'
+import Shiba from '@/components/bitcoin'
 import Footer from '../footer'
 
 const Main = ({ children, router }) => {
@@ -17,7 +17,7 @@ const Main = ({ children, router }) => {
 
       <Navbar path={router.asPath} />
       <Container maxW="container.md" pt={14}>
-        <BitcoinFactory />
+        <Shiba />
         {children}
         <Footer />
       </Container>

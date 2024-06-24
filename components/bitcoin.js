@@ -9,7 +9,7 @@ function easOutCirc(x) {
   return Math.sqrt(1 - Math.pow(x - 1, 4))
 }
 
-const BitcoinFactory = () => {
+const Shiba = () => {
   const refContainer = useRef()
   const [loading, setLoading] = useState(true)
   const [renderer, setRenderer] = useState()
@@ -151,4 +151,4 @@ const BitcoinFactory = () => {
   )
 }
 
-export default BitcoinFactory
+export default Shiba
