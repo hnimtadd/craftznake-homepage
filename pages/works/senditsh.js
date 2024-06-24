@@ -1,6 +1,6 @@
 import { Container, Badge, Link, List, ListItem } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, WorkImage, Meta } from '@/components/work'
+import { Title, WorkImage, Meta } from '@/components/title'
 import Paragraph from '@/components/paragraph'
 import Layout from '@/components/layouts/article'
 
@@ -8,7 +8,7 @@ const Work = () => {
   return (
     <Layout title="senditsh">
       <Container>
-        <Title>
+        <Title content={'works'}>
           Senditsh <Badge>8/2023</Badge>
         </Title>
         <Paragraph>

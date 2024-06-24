@@ -1,5 +1,5 @@
 import { Container, Badge, List, ListItem } from '@chakra-ui/react'
-import { Title, WorkImage, Meta } from '@/components/work'
+import { Title, WorkImage, Meta } from '@/components/title'
 import Paragraph from '@/components/paragraph'
 import Layout from '@/components/layouts/article'
 
@@ -7,7 +7,7 @@ const Work = () => {
   return (
     <Layout title="Smarthome">
       <Container>
-        <Title>
+        <Title content="works">
           IOT Smarthome <Badge>4/2023</Badge>
         </Title>
         <Paragraph>

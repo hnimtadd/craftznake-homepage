@@ -5,9 +5,10 @@ import Layout from '@/components/layouts/article'
 import thumbSendit from '@/public/images/thumbnail.jpg'
 
 import thumbGoTodo from '@/public/images/thumbnail.jpg'
+
 const Works = () => {
   return (
-    <Layout>
+    <Layout title={'Works'}>
       <Container>
         <Heading as="h3" fontSize={20} mb="4">
           Works

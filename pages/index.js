@@ -39,7 +39,7 @@ const Index = () => {
         <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
             <Heading>Hnimtadd</Heading>
-            <p>Craftzboy ( Developer / Guitarist )</p>
+            <p>Craftznake (Developer / Guitarist)</p>
           </Box>
           <Box
             flexShrink={0}
@@ -146,7 +146,7 @@ const Index = () => {
                   colorScheme="teal"
                   leftIcon={<IoLogoFacebook />}
                 >
-                  @craftznake
+                  @hnimtadd
                 </Button>
               </Link>
             </ListItem>
