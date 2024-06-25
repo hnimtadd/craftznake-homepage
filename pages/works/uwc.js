@@ -7,7 +7,7 @@ const Work = () => {
   return (
     <Layout title="UWC">
       <Container>
-        <Title>
+        <Title content={'works'}>
           Urban garbage collect management <Badge>2022</Badge>
         </Title>
         <Paragraph>

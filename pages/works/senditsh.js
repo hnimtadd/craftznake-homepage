@@ -18,7 +18,7 @@ const Work = () => {
         </Paragraph>
         <List ml={4} mb={4}>
           <ListItem>
-            <Meta>website</Meta>(Deploy soon){' '}
+            <Meta>website</Meta>(Deploy soon)
             <Link href="https://senditsh.craftznake.co">
               https://senditsh.craftznake.co <ExternalLinkIcon />
             </Link>
@@ -29,10 +29,10 @@ const Work = () => {
           </ListItem>
           <ListItem>
             <Meta>stack</Meta>
-            <span>Go, Django</span>
+            <span>Golang, Django</span>
           </ListItem>
         </List>
-        <WorkImage alt="senditsh" src="/images/thumbnail.jpg" />
+        <WorkImage alt="senditsh" src="/images/sendit/Sendit.png" />
       </Container>
     </Layout>
   )

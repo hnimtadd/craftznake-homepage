@@ -27,7 +27,7 @@ const Work = () => {
           </ListItem>
           <ListItem>
             <Meta>stack</Meta>
-            <span>Go</span>
+            <span>Golang</span>
           </ListItem>
         </List>
         <WorkImage alt="senditsh" src="/images/thumbnail.jpg" />
