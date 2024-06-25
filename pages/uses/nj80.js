@@ -2,7 +2,7 @@ import Layout from '@/components/layouts/article'
 import Paragraph from '@/components/paragraph'
 import { Meta, Title } from '@/components/title'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Badge, Link, List, ListItem, Text } from '@chakra-ui/react'
+import { Badge, Link, List, ListItem } from '@chakra-ui/react'
 
 //TODO: add image list or caseroul
 const UseKeyboardNJ = () => {
@@ -24,8 +24,6 @@ const UseKeyboardNJ = () => {
             Amazon <ExternalLinkIcon />
           </Link>
         </ListItem>
-        //TODO: add new list item here
-        <ListItem></ListItem>
       </List>
     </Layout>
   )

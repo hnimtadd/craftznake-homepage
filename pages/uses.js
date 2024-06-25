@@ -3,8 +3,8 @@ import { Container, Heading, SimpleGrid, Divider, Text } from '@chakra-ui/react'
 import Section from '@/components/section'
 import { UseGridItem } from '@/components/grid-item'
 import Layout from '@/components/layouts/article'
-import thumbnailWorkspace from '@/public/images/thumbnail_setup_3.jpg'
-import thumbnailKeyboard from '@/public/images/thumbnail_keyboard_2.jpg'
+import thumbnailWorkspace from '@/public/images/workspace/setup/thumbnail_setup_3.jpg'
+import thumbnailKeyboard from '@/public/images/workspace/keyboard/thumbnail_keyboard_2.jpg'
 
 const Uses = () => {
   return (
@@ -16,8 +16,8 @@ const Uses = () => {
         <Text>
           Welcome to my Equipment page! Here, I showcase the essential gear and
           equipment that I rely on in my daily workflow. From my laptops to
-          productivity tools, you'll find a wide range of items that I use to
-          create content and build projects. I hope you find this helpful!
+          productivity tools, you&apos;ll find a wide range of items that I use
+          to create content and build projects. I hope you find this helpful!
         </Text>
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
