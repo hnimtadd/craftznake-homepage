@@ -9,17 +9,17 @@ export default class Document extends NextDocument {
       <Html lang="en">
         <Head>
           <Link
-            rel='icon'
-            type='image/x-icon'
-            href='/images/faviicon.png'
-            sizes ='any'
+            rel="icon"
+            type="image/x-icon"
+            href="/images/favicon.png"
+            sizes="any"
           />
         </Head>
         <body>
           <ColorModeScript initialColorMode={theme.config.initialColorMode} />
           <Main />
         </body>
-          <NextScript />
+        <NextScript />
       </Html>
     )
   }
