@@ -88,8 +88,11 @@ export const UseGridItem = ({
 
 export const GridItemStyle = () => (
   <Global
-    styles={` .grid-item-thumbnail{
-border-radius: 12px;
+    styles={`
+.grid-item-thumbnail{
+  border-radius: 12px;
+  height: 200px;
+  object-fit: cover;
 }
   `}
   ></Global>
