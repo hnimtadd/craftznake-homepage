@@ -12,6 +12,5 @@ node_modules/
 .yarn/cache
 .next/*
 #.pnp.*
-**/.DS_Store**
-.DS_Store
+**/.DS_Store
 **/*.zip
