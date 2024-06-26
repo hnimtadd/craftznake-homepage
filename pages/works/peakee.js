@@ -26,7 +26,7 @@ const Peakee = () => {
         </Paragraph>
         <List ml={4} mb={4}>
           <ListItem>
-            <Meta>architecture</Meta>
+            <Meta>application architecture</Meta>
             Mono-repo, single codebase for all platform
           </ListItem>
           <ListItem>
