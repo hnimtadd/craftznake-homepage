@@ -22,7 +22,7 @@ const Workspace = () => {
         </ListItem>
         <Meta>Keyboard</Meta>{' '}
         <ListItem>
-          <Link href="/uses/nj80" color={'white'}>
+          <Link href="/uses/nj80" color={'none'}>
             Keydous NJ80 <ExternalLinkIcon />
           </Link>
         </ListItem>
