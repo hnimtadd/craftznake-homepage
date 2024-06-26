@@ -7,7 +7,7 @@ const Work = () => {
   return (
     <Layout title="Smarthome">
       <Container>
-        <Title content="works">
+        <Title content="works" href={'/works'}>
           IOT Smarthome <Badge>4/2023</Badge>
         </Title>
         <Paragraph>

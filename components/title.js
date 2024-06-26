@@ -10,10 +10,10 @@ import {
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 
-export const Title = ({ content, children }) => {
+export const Title = ({ content, children, href }) => {
   return (
     <Box>
-      <Link as={NextLink} href="/works">
+      <Link as={NextLink} href={href}>
         {content}
       </Link>
       <span>

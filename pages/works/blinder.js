@@ -8,7 +8,7 @@ const Peakee = () => {
   return (
     <Layout title="Blinders">
       <Container>
-        <Title content={'works'}>
+        <Title content={'works'} href={'/works'}>
           Blinders <Badge>8/2023</Badge>
         </Title>
         <Paragraph>

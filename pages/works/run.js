@@ -9,7 +9,7 @@ const Run = () => {
   return (
     <Layout title={'Run'}>
       <Container>
-        <Title content={'works'}>
+        <Title content={'works'} href={'/works'}>
           Run <Badge>3/2024</Badge>
         </Title>
         <Paragraph>

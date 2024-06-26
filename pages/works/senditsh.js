@@ -8,7 +8,7 @@ const Work = () => {
   return (
     <Layout title="senditsh">
       <Container>
-        <Title content={'works'}>
+        <Title content={'works'} href={'/works'}>
           Senditsh <Badge>8/2023</Badge>
         </Title>
         <Paragraph>

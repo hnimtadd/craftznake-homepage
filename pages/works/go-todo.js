@@ -8,7 +8,7 @@ const Work = () => {
   return (
     <Layout title="gotodo">
       <Container>
-        <Title content={'works'}>
+        <Title content={'works'} href={'/works'}>
           Go Todo <Badge>9/2023</Badge>
         </Title>
         <Paragraph>

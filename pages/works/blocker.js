@@ -7,7 +7,7 @@ const Blocker = () => {
   return (
     <Layout title={'Blocker'}>
       <Container>
-        <Title content={'works'}>
+        <Title content={'works'} href={'/works'}>
           Blocker <Badge>11/2023</Badge>
         </Title>
         <Paragraph>
