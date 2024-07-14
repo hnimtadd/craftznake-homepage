@@ -1,6 +1,6 @@
 import Layout from '@/components/layouts/article'
 import Paragraph from '@/components/paragraph'
-import { Meta, Title, WorkImage } from '@/components/title'
+import { Meta, Title, PostImage } from '@/components/title'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Badge, Container, Link, List, ListItem } from '@chakra-ui/react'
 const Blocker = () => {
@@ -36,7 +36,7 @@ const Blocker = () => {
             </Link>
           </ListItem>
         </List>
-        <WorkImage alt="run" src="/images/blocker/blocker.png" />
+        <PostImage alt="run" src="/images/blocker/blocker.png" />
       </Container>
     </Layout>
   )

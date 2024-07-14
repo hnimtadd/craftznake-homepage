@@ -28,7 +28,7 @@ export const Title = ({ content, children, href }) => {
   )
 }
 
-export const WorkImage = ({ alt, src, title }) => {
+export const PostImage = ({ alt, src, title }) => {
   return (
     <Container mb={4}>
       <Image

@@ -1,5 +1,5 @@
 import Paragraph from '@/components/paragraph'
-import { Meta, Title, WorkImage } from '@/components/title'
+import { Meta, Title, PostImage } from '@/components/title'
 import { Badge, Container, Link, List, ListItem } from '@chakra-ui/react'
 
 import Layout from '@/components/layouts/article'
@@ -43,7 +43,7 @@ const Run = () => {
             </Link>
           </ListItem>
         </List>
-        <WorkImage alt="run" src="/images/run/run.png" />
+        <PostImage alt="run" src="/images/run/run.png" />
       </Container>
     </Layout>
   )

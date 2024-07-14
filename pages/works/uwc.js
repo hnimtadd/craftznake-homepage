@@ -1,5 +1,5 @@
 import { Container, Badge, List, ListItem } from '@chakra-ui/react'
-import { Title, WorkImage, Meta } from '@/components/title'
+import { Title, PostImage, Meta } from '@/components/title'
 import Paragraph from '@/components/paragraph'
 import Layout from '@/components/layouts/article'
 
@@ -25,7 +25,7 @@ const Work = () => {
             <span>Nodejs, Python, React, MapBox</span>
           </ListItem>
         </List>
-        <WorkImage alt="senditsh" src="/images/thumbnail.jpg" />
+        <PostImage alt="senditsh" src="/images/thumbnail.jpg" />
       </Container>
     </Layout>
   )

@@ -1,6 +1,6 @@
 import { Container, Badge, Link, List, ListItem } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, WorkImage, Meta } from '@/components/title'
+import { Title, PostImage, Meta } from '@/components/title'
 import Paragraph from '@/components/paragraph'
 import Layout from '@/components/layouts/article'
 
@@ -32,7 +32,7 @@ const Work = () => {
             <span>Golang, Django</span>
           </ListItem>
         </List>
-        <WorkImage alt="senditsh" src="/images/sendit/Sendit.png" />
+        <PostImage alt="senditsh" src="/images/sendit/Sendit.png" />
       </Container>
     </Layout>
   )

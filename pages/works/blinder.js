@@ -1,6 +1,6 @@
 import { Container, Badge, Link, List, ListItem } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, WorkImage, Meta } from '@/components/title'
+import { Title, PostImage, Meta } from '@/components/title'
 import Paragraph from '@/components/paragraph'
 import Layout from '@/components/layouts/article'
 
@@ -35,16 +35,16 @@ const Peakee = () => {
             <Meta>stack</Meta>
             <span>
               Golang, Python, Langchain, AWS, Terraform, Firebase, MongoDB,
-              Websocket, Redis
+              Websocket, Redis, Docker
             </span>
           </ListItem>
         </List>
-        <WorkImage
+        <PostImage
           alt="blidner architecture"
           src="/images/blinders/architecture.png"
           title="Blinders Architecture"
         />
-        <WorkImage alt="blinder logo" src="/images/blinders/blinders.png" />
+        <PostImage alt="blinder logo" src="/images/blinders/blinders.png" />
       </Container>
     </Layout>
   )

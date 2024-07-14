@@ -1,6 +1,6 @@
 import { Container, Badge, Link, List, ListItem } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, WorkImage, Meta } from '@/components/title'
+import { Title, PostImage, Meta } from '@/components/title'
 import Paragraph from '@/components/paragraph'
 import Layout from '@/components/layouts/article'
 
@@ -44,7 +44,7 @@ const Peakee = () => {
             <span>Typescript, ReactNative, React, NextJS, Webpack, Babel</span>
           </ListItem>
         </List>
-        <WorkImage
+        <PostImage
           alt="senditsh"
           src="/images/peakee/landing.png"
           title="Peakee landing page"
