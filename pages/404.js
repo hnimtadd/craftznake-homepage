@@ -15,7 +15,9 @@ const NotFound = () => {
     <Layout>
       <Container>
         <Heading as="h1">Not Found</Heading>
-        <Text>The page you&apos;re looking for was not found.</Text>
+        <Text>
+          The page you&apos;re looking for was not found. Updating soon. ⚡
+        </Text>
         <Divider my={6} />
 
         <Box my={6} align="center">

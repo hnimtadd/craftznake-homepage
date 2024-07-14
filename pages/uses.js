@@ -5,11 +5,45 @@ import { UseGridItem } from '@/components/grid-item'
 import Layout from '@/components/layouts/article'
 import thumbnailWorkspace from '@/public/images/workspace/setup/thumbnail_setup_3.jpg'
 import thumbnailKeyboard from '@/public/images/workspace/keyboard/thumbnail_keyboard_2.jpg'
+import thumbnailWorkflow from '@/public/images/workflow/terminal/terminal_1.png'
+import thumbnailMacbook from '@/public/images/workflow/macbook/macbook_1.png'
 
 const Uses = () => {
   return (
     <Layout title={'Uses'}>
       <Container>
+        <Heading as="h3" fontSize={20} mb={4}>
+          Workflow setup
+        </Heading>
+
+        <SimpleGrid columns={[1, 1, 1]} gap={6}>
+          <Section>
+            <UseGridItem
+              id="workflow"
+              title="Workflow setup"
+              thumbnail={thumbnailWorkflow}
+            >
+              Workflow is the process that I use to create projects. This
+              section is where I put my configs and setup.
+            </UseGridItem>
+          </Section>
+
+          <Section>
+            <UseGridItem
+              id="macbook"
+              title="Macbook setup"
+              thumbnail={thumbnailMacbook}
+            >
+              This section is where I setup my Macbook. Including monitor
+              config, keyboard mapping, windows tiling and other stuff.
+            </UseGridItem>
+          </Section>
+        </SimpleGrid>
+
+        <Section delay={0.2}>
+          <Divider my={6} />
+        </Section>
+
         <Heading as="h3" fontSize={20} mb="4">
           Workspace
         </Heading>
@@ -42,14 +76,6 @@ const Uses = () => {
             </UseGridItem>
           </Section>
         </SimpleGrid>
-
-        <Section delay={0.2}>
-          <Divider my={6} />
-
-          <Heading as="h3" fontSize={20} mb={4}>
-            Devices
-          </Heading>
-        </Section>
       </Container>
     </Layout>
   )

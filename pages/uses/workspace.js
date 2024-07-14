@@ -1,6 +1,6 @@
 import Layout from '@/components/layouts/article'
 import Paragraph from '@/components/paragraph'
-import { Meta, Title, WorkImage } from '@/components/title'
+import { Meta, Title, PostImage } from '@/components/title'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Link, List, ListItem } from '@chakra-ui/react'
 
@@ -30,12 +30,12 @@ const Workspace = () => {
           <Meta>Monitor Arm</Meta> Human Monition
         </ListItem>
       </List>
-      <WorkImage
+      <PostImage
         alt={'workspace setup'}
         src={'/images/workspace/setup/thumbnail_setup_1.jpg'}
         title={'workspace setup'}
       />
-      <WorkImage
+      <PostImage
         alt={'workspace setup'}
         src={'/images/workspace/setup/thumbnail_setup_3.jpg'}
       />

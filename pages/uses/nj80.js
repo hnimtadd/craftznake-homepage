@@ -1,6 +1,6 @@
 import Layout from '@/components/layouts/article'
 import Paragraph from '@/components/paragraph'
-import { Meta, Title, WorkImage } from '@/components/title'
+import { Meta, Title, PostImage } from '@/components/title'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Badge, Link, List, ListItem } from '@chakra-ui/react'
 
@@ -41,12 +41,12 @@ const UseKeyboardNJ = () => {
           Carbon profile DSA
         </ListItem>
       </List>
-      <WorkImage
+      <PostImage
         alt={'keydous keyboard image'}
         src={'/images/workspace/keyboard/thumbnail_keyboard_2.jpg'}
         title={'Top down view of the keyboard'}
       />
-      <WorkImage
+      <PostImage
         alt={'keydous keyboard image'}
         src={'/images/workspace/keyboard/thumbnail_keyboard_4.jpg'}
         title={'NJ80 Keyboard'}
